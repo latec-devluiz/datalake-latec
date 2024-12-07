@@ -1,0 +1,14 @@
+
+class Produto:
+
+    def __init__(self, nome, preco):
+        self.nome = nome
+        self.preco = preco
+
+    def __eq__(self, other):
+        return self.preco == other.preco
+    
+produto1 = Produto("Produto A", 100)
+produto2 = Produto("Produto B", 100)
+
+print(produto1 == produto2)

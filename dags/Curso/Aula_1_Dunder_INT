@@ -1,0 +1,13 @@
+class Produto:
+    def __init__(self, nome, preco):
+        self.nome = nome
+        self.preco = preco
+
+
+    def __int__(self):
+        return int(float(self.preco))
+    
+
+produto = Produto("Produto A", "99.999")
+print(int(produto))
+

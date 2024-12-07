@@ -1,0 +1,12 @@
+# Ignorar arquivos de log do Airflow
+*.log
+*.pid
+logs/
+
+# Ignorar arquivos temporários
+*.tmp
+*.swp
+
+# Ignorar arquivos Python compilados
+*.pyc
+__pycache__/
